@@ -11,6 +11,7 @@ using namespace std;  // Evitamos escribir std:: cada vez
 int main() {                                  // Funcion principal del programa
     string nombre;                             // Variable para almacenar el nombre del cliente
     string empresa = "OfiExpress";             // Nombre de la empresa (texto fijo)
+    string nombreProducto;
 
     // Título del chatbot
     cout << "=== Chatbot " << empresa << " v1 ===" << endl;
